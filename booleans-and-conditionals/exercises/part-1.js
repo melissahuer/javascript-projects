@@ -14,8 +14,7 @@ if (engineIndicatorLight === "green") {
 } else {
    console.log("engines are off");
 }
-
-
+//"Engines are off" will be printed to the console 
 
 
 
