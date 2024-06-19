@@ -37,7 +37,7 @@ if (fuelLevel < 1000 || engineTemperature > 3500 || engineIndicatorLight === 're
     console.log("Fuel and engine status pending...");
   }
 
-  let commandOverride = true;
+  let commandOverride = false;
 
   if (((fuelLevel > 20000) && (engineIndicatorLight !== 'red blinking'))||(commandOverride == true)){
   console.log("Cleared to Launch");
